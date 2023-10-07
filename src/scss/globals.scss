@@ -1,0 +1,27 @@
+//mobile visibility version
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+//desktop visibility version
+.hide-for-desktop {
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
