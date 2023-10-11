@@ -7,7 +7,7 @@ import HeaderProfile from "./HeaderProfile";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header flex">
       <MobileMenu />
       <DesktopMenu />
       <HeaderCart />

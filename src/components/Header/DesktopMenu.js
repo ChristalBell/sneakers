@@ -2,8 +2,8 @@ import React from "react";
 
 const DesktopMenu = () => {
   return (
-    <div>
-      <div className="desktop-menu hide-for-mobile">
+    <div className="desktop-menu hide-for-mobile">
+      <div>
         <a href="/" alt="Collections">
           Collections
         </a>
