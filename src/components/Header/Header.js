@@ -1,6 +1,5 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
-
 import DesktopMenu from "./DesktopMenu";
 import HeaderCart from "./HeaderCart";
 import HeaderProfile from "./HeaderProfile";
